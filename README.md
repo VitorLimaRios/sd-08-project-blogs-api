@@ -1,3 +1,24 @@
+## Projeto de Web Chat
+
+Esta aplicação é uma api desenvolvida com express, sequelize e foi organizado seguindo a arquitetura MSC (Model, Service, Controller). Esta API é um CRUD (Create, Read, Update, Delete) de posts de blog.
+
+## Como usar
+
+Faça o clone do projeto:
+- `https://github.com/VitorLimaRios/sd-08-project-blogs-api.git`.
+
+Após clonar o projeto faça a instalação das dependencias através do npm:
+- `npm install`.
+
+Crie um arquivo .env na pasta raiz do projeto com as seguintes variáveis:
+- `MYSQL_USER` _(nome do seu usuário MYSQL)_;
+- `MYSQL_PASSWORD` _(senha do seu usuário MYSQL)_;
+- `HOSTNAME` _(nome do servidor host)_;
+- `JWT_SECRET` _(senha JWT para criar tokens de autenticação)_;
+
+---
+---
+
 ### Termos e acordos
 
 Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
